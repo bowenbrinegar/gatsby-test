@@ -1,0 +1,35 @@
+
+#top-bar {
+  background: grey;
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  width: calc(100% - 20px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  h1 {
+    color: blue;
+    margin: 0 10px;
+    padding: 0;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    margin: auto 0;
+
+    a {
+      margin: 0 10px;
+    }
+  }
+}
+
+#content {
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  overflow: auto;
+}
